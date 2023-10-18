@@ -13,7 +13,7 @@ const Cards = ({cards}) => {
                 <input type="text" class="search-input" placeholder="Search"></input>
         </div>
 
-        <div class="flex flex-wrap item-center justify-content: center max-width max-w-screen-lg m-8 mx-3 place-content-stretch">
+        <div class="flex flex-wrap item-center justify-content: center max-width max-w-screen-lg m-8 ">
         {cards.map((data) => (
             
                 <div key={data.id} class="w-full md:w-1/2 lg:w-1/4 px-4 mb-4">
